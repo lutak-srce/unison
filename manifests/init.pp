@@ -30,7 +30,7 @@
 #
 class unison (
   $ensure  = present,
-  $package = 'unison227',
+  $package = 'unison240',
   $version = '',
   $noops   = undef,
 ) {
