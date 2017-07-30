@@ -25,7 +25,7 @@ define unison::sync (
     }
   }
 
-  file { "${unison_dotdir}/${title}" :
+  file { "${unison_dotdir}/${title}.prf" :
     ensure  => file,
     owner   => $user,
     group   => $group,
